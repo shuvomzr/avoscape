@@ -1,0 +1,129 @@
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px white; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:linear-gradient(135deg, #02bbdb, #25fa42)!important;
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(-135deg, #0CC0DF, #71EF81)!important;
+  }
+
+
+body{
+	background:#def3fa;
+
+    
+    /* background-size: cover; */
+}
+#crd{
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px!important;
+	border:0px;
+	border-bottom:1px!important;
+	border-radius:3px!important;
+}
+.login{
+    background: #ffffef;
+    width:100vw;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.btn-primary{
+    background: linear-gradient(135deg, #0CC0DF, #71EF81);
+    border: 1px solid #ccc;
+}
+.btn-primary:hover{
+    background: linear-gradient(-135deg, #0CC0DF, #71EF81);
+}
+#navb{
+    background: linear-gradient(-135deg, #0CC0DF, #71EF81);
+	
+}
+.offcanvas-header, .offcanvas-body, .modal-content{
+    background: linear-gradient(135deg, #0CC0DF, #71EF81);
+}
+.navbar-nav{
+    padding-top:4px;
+}
+#navb{
+    color:#455A64;
+    padding: 2px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px!important;
+}
+#search{
+    padding-left: 16px;
+    height: 70%;
+    margin-top: 8px;
+    border-radius: 25px;
+    width: 100%;
+    background:linear-gradient(-135deg, #0CC0DF, #71EF81);
+    color: white;
+    border: 0;
+    box-shadow: 0 0 3px  #71EF81;
+
+}
+#sra{
+    width: 100%!important;
+}
+.inputfrom{
+    background: linear-gradient(135deg, #0CC0DF, #71EF81);
+}
+.btn-danger{
+    border: 1px solid #71EF81;
+}
+.btn-danger:hover{
+    border:1px solid #0D6EFD;
+}
+.card{
+    background: linear-gradient(-135deg, #0CC0DF, #71EF81)!important;
+   
+}
+#exampleFormControlTextarea1{
+    height: 80px;
+
+}
+.dropdown-menu{
+    background: linear-gradient(135deg, #0CC0DF, #71EF81);
+
+}
+.border-bottom, .border-top{
+    border-color: #2b9245!important;
+    border-radius: 0.5px!important;
+}
+#bgimg{
+   
+}
+.align-self-end{
+    border:1px solid  #000!important;
+}
+@media only screen and (max-width: 600px) {
+    form#frm {
+      margin-top:30%;
+      margin-left:15px;
+      margin-right:15px;
+      margin-bottom:15%;
+    }
+    form#searchform{
+      align-items: end;
+      text-align: right; 
+    }
+    #listofpost{
+      width: 100%!important;
+    }
+  }
+  
